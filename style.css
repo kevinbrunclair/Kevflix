@@ -352,6 +352,27 @@ h3 {
   height: calc(100vh - 10px);
   grid-template: repeat(6, 1fr)/repeat(6, 1fr);
   grid-gap: 0.5em;
+  
+  @media (max-width: 800px) {
+  #gallery{
+    display: none;
+  }
+}
+
+
+@media (max-width: 1920px) {
+  #arc{
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  #arc{
+    display: flex;
+  }
+}
+  
+  
 }
 /* @media (max-width: 800px) {
   #gallery {
